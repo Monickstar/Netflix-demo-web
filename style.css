@@ -1,0 +1,86 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Netflix Sans,
+    Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    } 
+
+    header{ 
+    width: 100%; 
+    background-image:linear-gradient( to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.013),
+     rgba(0, 0, 0, 0.8)), url(./images/background-\ image.jpg); 
+    background-size:cover; 
+    background-position:center;  
+    height:100vh; 
+    } 
+
+    img{ 
+    width: 12%;  
+    } 
+
+    .head{ 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    width:90%; 
+    margin:0 auto; 
+    } 
+
+    .btn button{ 
+    padding: 7px 17px; 
+    background-color: red; 
+    color: white; 
+    border-radius: 5px; 
+    border: none; 
+    font-weight: 600; 
+    } 
+
+    .btn a{ 
+    text-decoration: none; 
+    color: #fff; 
+    } 
+
+    .first_section{
+        justify-content: center;
+    }
+
+    .area{ 
+    color: white; 
+    text-align: center; 
+    margin-top: 15%; 
+    word-spacing: 2px;
+    }
+
+    .area h1{
+        font-size: 50px;
+        font-weight: 800;
+        line-height: 50px;
+    }
+
+    .area h3{
+        font-size: 30px;
+        word-spacing: 2px
+    }
+
+    .area p{
+        font-size: 20px;
+    }
+
+    .box{
+        width: 30%;
+        height: 60px;
+        padding: 2px;
+        margin-top: 10px;
+        font: 1.4em/1.6em;
+    }
+
+    .try{
+        background-color: red;
+        padding: 3px 5px;
+    }
+
+    
+
+   
